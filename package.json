@@ -1,0 +1,28 @@
+{
+  "name": "rocket-log",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinLopes23/rocket-log.git"
+  },
+  "author": "Kevin Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinLopes23/rocket-log/issues"
+  },
+  "homepage": "https://github.com/KevinLopes23/rocket-log#readme",
+  "description": "API de entregas de encomendas",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsx": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
