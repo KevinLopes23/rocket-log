@@ -6,10 +6,10 @@ const config: Config = {
   coverageProvider: "v8",
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["<rootDir>/src/**/*.test.ts"],
+  testMatch: ["<rootDir>/src/**/*.test.ts", "<rootDir>/src/**/*.test.js"],
   moduleNameMapper: {
-    "^@/(.*)" : "<rootDir>/src/$1"
-  }
+    "^@/(.*)": "<rootDir>/src/$1",
+  },
 };
 
 export default config;
